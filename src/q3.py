@@ -3,9 +3,8 @@ def update_dictionary(dct, key, value):
     if key in dct:
         # if yes print existing value
         print("Original value:", dct[key])
-    # update key with new value
-    dct[key] = value
-    # return the new updated dct dictionary
+        # update key with new value
+        dct[key] = value
     return dct
 
 
